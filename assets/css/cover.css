@@ -1,0 +1,81 @@
+.cover-page{
+	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+	background-color: #333;
+}
+.cover-page *{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cover-page .modal *{
+	color: rgba(0, 0, 0, .8);
+}
+.cover-page #brand{
+	color: #fff;
+}
+.cover-page #brand:hover{
+	color: #777;
+}
+.cover-page #main-content{
+	margin-top: 8%;
+}
+.cover-page #main-content button a{
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cover-page .page-header ul{
+	float: left;
+}
+/*fonts*/
+.cover-page h1{
+	font-size: 400%;
+}
+.cover-page p{
+	font-size: 150%;
+}
+/*fonts*/
+.cover-page footer{
+	bottom: 3%;
+	position: absolute;
+	width: 100%;
+}
+.cover-page .navbar-default{
+	background-color: transparent;
+}
+.cover-page #page-header ul.pull-right{
+	padding: .5%;
+}
+.cover-page .navbar-default{
+	border: none;
+}
+
+@media (max-width: 770px) {
+.cover-page  #bs-example-navbar-collapse-1{
+
+}
+}
+@media (max-width: 475px) {
+/*fonts*/
+.cover-page h1{
+	font-size: 380%;
+}
+.cover-page p{
+	font-size: 130%;
+}
+/*fonts*/
+.cover-page .nav-pills .nav-item{
+	width: 100%;
+	margin: 0;
+}
+.cover-page .nav-pills .nav-item a{
+	border-radius: 0;	
+}
+.cover-page  #bs-example-navbar-collapse-1{
+	width: 100%;
+	padding: 0;
+}
+.cover-page  #bs-example-navbar-collapse-1 ul{
+	width: 100%;
+}
+}

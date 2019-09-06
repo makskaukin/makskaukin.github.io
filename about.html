@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>О фильме</title>
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page">
+ <section id="page-header">
+  <div class="container">
+    <div class="row">
+      <div class="margin1"></div>
+      <div class="col-lg-4 ">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <!-- <img alt="Киноволна" src="..."> -->
+                Киноволна
+              </a>
+            </div>
+      </div>
+      <div class="col-lg-8 ">
+        <nav class="nav nav-pills pull-right">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="casting.html" class="nav-link">Кастинг</a>
+          </li>
+          <li class="nav-item active">
+            <a href="about.html" class="nav-link">О фильме</a>
+          </li>
+          <li class="nav-item">
+            <a href="author.html" class="nav-link">Об авторе</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="modal-open" class="nav-link" data-toggle="modal" data-target="#myModal">Контакты</a>
+          </li>
+        </nav>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" id="modal-close" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body text-center">
+       
+          <h1>Напишите нам</h1>
+          <h1>kaukin_production@gmail.com</h1>
+      </div>
+      <div class="modal-footer text-center">
+        <div class="social">
+        <h4>social <span id="social-span">media</span></h4>
+        <div class="social-icons">
+          <a href="vk.com"><img src="" alt="">asd</a>
+          <a href="facebook.com"><img src="" alt="">asd</a>
+          <a href="telegram.org"><img src="" alt="">asd</a>
+        </div>
+      </div>
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal end -->
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="margin1"></div>
+<section class="author-header-carusel">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://www.cinemotionlab.com/content/FilmSetGo.jpg" alt="...">
+      <div class="carousel-caption left">
+        <h5>Персонажи</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button  type="button" class="btn btn-lg btn-primary">О сценарии</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://klops.ru/media/W1siZiIsIjIwMTcvMTIvMjQvOTdrcmI1aWR5bl9QT0RHODYzMS5qcGciXSxbInAiLCJ0aHVtYiIsIjkyNHgiXV0?sha=ed3b94ef02a5ded3" alt="...">
+      <div class="carousel-caption">
+          
+<h5>Сьемки</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button  type="button" class="btn btn-lg btn-primary">О съемках</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src=" https://stat5.cdnbb8.com/upload/2012/2017-05/eewq2.jpg" alt="...">
+      <div class="carousel-caption right">
+        
+ <h5>Продакшн</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <button  type="button" class="btn btn-lg btn-primary">О продакшене</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+<div class="margin1"></div>
+	<div class="container">
+  <div class="row"> 
+    <div class="col-lg-12">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#about" aria-controls="about" role="tab" data-toggle="tab">Подготока сценария</a></li>
+          <li role="presentation" data-toggle="tooltip" data-placement="top" title="5000$" class="disabled">
+            <!-- <a href="#casting" aria-controls="casting" role="tab" data-toggle="tab" >Кастинги</a> -->
+            <a href="#casting">Кастинги</a>
+          </li>
+          <li role="presentation" data-toggle="tooltip" data-placement="top" title="20.000$" class="disabled">
+            <!-- <a href="#pilot" aria-controls="pilot" role="tab" data-toggle="tab" >Пилотный эпизод</a> -->
+            <a href="#pilot">Пилотный эпизод</a>
+          </li>
+          <li role="presentation" data-toggle="tooltip" data-placement="top" title="50.000$" class="disabled">
+            <!-- <a href="#production" aria-controls="production" role="tab" data-toggle="tab">Продакшн</a> -->
+            <a href="#production">Продакшн</a>
+          </li>
+
+
+        </ul>
+        <!-- Tab panes -->
+
+<div class="tab-content">
+
+  <!--  id="about" -->
+  <div role="tabpanel" class="tab-pane active" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Описания этапов разработки сценария</h1>
+          <div class="panel panel-default">
+            <div class="panel-heading">Концепция</div>
+            <div class="panel-body">
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Злых всеми там взгляд ты толку по всей они составитель что подпоясал города встретил осталось, заголовок текстами выйти океана, заглавных продолжил.
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Персонажи</div>
+            <div class="panel-body">
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подпоясал, текстов своего возвращайся решила прямо, путь образ деревни языкового, всемогущая журчит правилами родного единственное домах бросил! Пунктуация своих, за.
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Проработка замысла</div>
+            <div class="panel-body">
+              Создание идейно-художественного замысла сценария. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Своих которое о, толку дороге залетают рыбными выйти? Путь коварный, напоивший предупредила использовало, над грамматики выйти заглавных своего толку которой!
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Раскадровка</div>
+            <div class="panel-body">
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предупреждал свою семь переписывается дал, текстов океана рукопись бросил приставка которое рекламных дорогу, вдали о выйти букв свой. Ее, переписывается!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  id="about" end -->
+  <div role="tabpanel" class="tab-pane" id="casting">
+    this is about author content
+  </div>
+  <div role="tabpanel" class="tab-pane" id="pilot">
+    this is payinfo
+  </div>
+  <div role="tabpanel" class="tab-pane" id="production">
+  this is contact info</div>
+</div> <!-- <div class="tab-content"> end -->
+    
+
+
+    </div>
+  </div>
+</div>
+
+	</div>
+<footer>
+  <div class="container footer">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="index.html">&copy; Киноволна 2019</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</div> <!-- <div class="page"> end -->
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/customscript.js"></script>
+</body>
+</html>

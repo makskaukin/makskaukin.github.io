@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+
+@import url(bootstrap.min.css);
+@import url(header.css);
+@import url(sectorone.css);
+@import url(cover.css);
+@import url(footer.css);
+/*@import url(bootstrapLux.min);*/
+/*@import url(bootstrapLux.css);*/
+/*@import url(bootstrapCyborg.css);*/
+
+
+
+.clear{
+	clear: both;
+	/*height: 63px;*/
+	height: 1rem;
+}
+.wrapper{
+	min-height: 100%;
+}
+html, body{
+	height: 100%;
+}
+
+.margin1{
+	margin-top: 2rem;
+}
+.margin2{
+	margin-top: 1rem;
+}
+.ttup{
+	text-transform: uppercase;
+}
+@media screen (max-width: 475px) {
+.button-large{
+	width: 100%;
+}
+}
+/*<div class="margin1"></div> */

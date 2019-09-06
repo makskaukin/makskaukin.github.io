@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="page">
+<section id="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="margin1"></div>
+			<div class="col-lg-6">
+				    <div class="navbar-header">
+				      <a class="navbar-brand" href="#">
+				        <img alt="Киноволна" src="...">
+				      </a>
+				    </div>
+			</div>
+			<div class="col-lg-6">
+				<nav class="nav nav-pills pull-right">
+					<li class="nav-item active">
+						<a href="index.html" class="nav-link">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a href="casting.html" class="nav-link">Кастинг</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">О фильме</a>
+					</li>
+					<li class="nav-item">
+						<a href="author.html" class="nav-link">Об авторе</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" id="modal-open" class="nav-link" data-toggle="modal" data-target="#myModal">Контакты</a>
+					</li>
+				</nav>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" id="modal-close" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body text-center">
+       
+        	<h1>Напишите нам</h1>
+        	<h1>kaukin_production@gmail.com</h1>
+      </div>
+      <div class="modal-footer text-center">
+      	<div class="social">
+				<h4>social <span id="social-span">media</span></h4>
+				<div class="social-icons">
+					<a href="vk.com"><img src="" alt="">asd</a>
+					<a href="facebook.com"><img src="" alt="">asd</a>
+					<a href="telegram.org"><img src="" alt="">asd</a>
+				</div>
+			</div>
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal end -->
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container header-form">
+		<div class="margin1"></div>
+		<div class="row well">
+			<div class="col-lg-7 col-md-7 col-sm-6">
+				<h1>ФИЛЬМ</h1>
+				<h3>продюссер Максим Каукин</h3>
+				<p>Я снимаю свой фильм чтобы показать вам уникальную историю.</p>
+			</div>	
+			<div class="col-lg-5 col-md-5 col-sm-6">
+				<form action="">
+					<label for="">Поддержать проект фильма</label>
+					<div class="form-group">
+					    <input type="name" class="form-control" id="main-form-name" placeholder="Ваше имя">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Адрес почты для благодарности">
+					</div>
+
+					<div class="input-group">
+						<span class="input-group-addon">$</span>
+						<input type="text" class="form-control" aria-label="Сумма для поддержки фильма" placeholder="100">
+						<span class="input-group-addon">.00</span>
+					</div>
+					<div class="margin1"></div>
+					<div class="form-check text-center">
+							<input type="radio" class="form-check-input" id="defaultCheck1" value="paypal" name="payinfo">
+							<label class="form-check-label" for="defaultCheck1">Paypal</label>
+							<input type="radio" class="form-check-input" id="defaultCheck2" value="card" name="payinfo">
+							<label class="form-check-label" for="defaultCheck2">Карта банка</label>
+<input type="radio" class="form-check-input" id="defaultCheck3" value="wallet" name="payinfo">
+							<label class="form-check-label" for="defaultCheck3">Кошелек</label>
+					</div>
+					<!-- <div class="form-check">
+							<input type="radio" class="form-check-input" id="defaultCheck1" value="paypal" name="payinfo">
+							<label class="form-check-label" for="defaultCheck1">Paypal</label>
+					</div>
+					<div class="form-check">
+							<input type="radio" class="form-check-input" id="defaultCheck2" value="card" name="payinfo">
+							<label class="form-check-label" for="defaultCheck2">Карта банка</label>
+					</div>
+					<div class="form-check">
+							<input type="radio" class="form-check-input" id="defaultCheck3" value="wallet" name="payinfo">
+							<label class="form-check-label" for="defaultCheck3">Кошелек</label>
+					</div> -->
+					<div class="margin1"></div>
+					<div class="form-group">
+			 			<input type="submit" class="form-control" value="Поддержать проект">		
+					</div>
+
+				</form>
+			</div>
+		</div>
+		
+	</div>
+</section>	<!-- <section id="page-header"> -->
+<section id="main-page">
+	<div class="container well">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="text-center">
+					<h3>10% (500$ / 5000$)</h3>
+				</div>
+				<div class="progress" style="height: 2.5rem">
+					<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container well">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-5">
+				<img src="assets/img/scenario.jpg" alt="" class="img-thumbnail">
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-7">
+				<h4>Привет, я Максим Каукин!</h4>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Переулка жизни страна, взобравшись она возвращайся переписали! Рукопись, решила? Языком приставка до скатился образ наш lorem ему эта. Текст, до.</p>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Переулка жизни страна, взобравшись она возвращайся переписали! Рукопись, решила? Языком приставка до скатился образ наш lorem ему эта. Текст, до.</p>
+			</div>
+		</div>
+	</div> 
+</section>
+
+
+<footer>
+	<div class="container footer">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="index.html">&copy; Киноволна 2019</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+</div> <!-- <div class="page"> -->
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/customscript.js"></script>
+</body>
+</html>
